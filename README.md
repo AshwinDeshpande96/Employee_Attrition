@@ -1,22 +1,22 @@
-# Employee_Attrition
+# Product Membership Recommendation System
 
 
 * We have a list of customers and their transactions with the following schemas
- * Customers Data
-  * Customer Id
-  * Customer name
-  * Activation Date
-  * Current Status  <-- target
- * Transactions Data
-  * Transaction Id
-  * Customer Id
-  * Time Spent
-  * Amount Spent
+  * Customers Data
+    * Customer Id
+    * Customer name
+    * Activation Date
+    * Current Status  <-- target
+  * Transactions Data
+    * Transaction Id
+    * Customer Id
+    * Time Spent
+    * Amount Spent
 * Each customer belongs one of 4 classes
-  * Bronze
-  * Silver
-  * Gold
-  * Platinum
+   * Bronze
+   * Silver
+   * Gold
+   * Platinum
 * Depending on the customer and their nature of transaction the task is predict which category a new customer is willing to purchase.
 * We do feature engineering to obtain data which form distinct clusters for each category
 
