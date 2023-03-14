@@ -1,6 +1,6 @@
 # Product Membership Recommendation System
 
-
+[Full-Notebook](./Product_Membership_Recommendation_System.ipynb)
 * We have a list of customers and their transactions with the following schemas
   * Customers Data
     * Customer Id
